@@ -2,8 +2,9 @@
   "name": "saa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
+    "start": "parcel index.html",
     "build": "postcss style.css -o output.css -w"
   },
   "keywords": [],
